@@ -6,10 +6,10 @@ This apllication runs on Python 3.12, Django 5.0 Framework. Sqlite3(later will b
 The project is called online services for newcomers. It is and agenda and consist of the following features  
 =>**Home page** that contains general information about the system.   
 =>**Client page** – In this feature, the user (a newcomer) can register personal information.   
-=>**Service page** – In this feature, the user (a newcomer) can choose services.
+=>**Service page** – In this feature, the user (a newcomer) can choose services.   
 =>**Appointment page** – In this feature, the user (a newcomer) can choose the available dates based on the selected services.   
-=>**Appointments list page** – This feature, will provide an itemize list of appointments registered in the system.    
-=>**Login/Logout System** – With this feature, the user can log-in and log-out of the system.     
+=>**Appointments list page** – This feature, will provide an itemize list of appointments registered in the system.   
+=>**Login/Logout System** – With this feature, the user can log-in and log-out of the system.   
 
 
 **Steps to run the project:**  
