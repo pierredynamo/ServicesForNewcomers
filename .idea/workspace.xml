@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d0e4d3-454f-493f-ac08-7038454c8034" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ServicesForNewcomers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ServicesForNewcomers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Agenda/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Agenda/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServicesForNewcomers/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesForNewcomers/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServicesForNewcomers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesForNewcomers/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="d3d0e4d3-454f-493f-ac08-7038454c8034" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +14,17 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="pierredynamo &lt;156972415+pierredynamo@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -95,8 +98,33 @@
       <option name="presentableId" value="Default" />
       <updated>1708368427562</updated>
       <workItem from="1708368438572" duration="1420000" />
-      <workItem from="1708369917047" duration="5140000" />
+      <workItem from="1708369917047" duration="5460000" />
     </task>
+    <task id="LOCAL-00001" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1708378086368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708378086368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708378225362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708378225362</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1708378240291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708378240292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>
