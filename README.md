@@ -12,50 +12,72 @@ The project is called online services for newcomers. It is and agenda and consis
 =>**Login/Logout System** – With this feature, the user can log-in and log-out of the system.   
 
 
-**Steps to run the project:**  
-**Step One:** download and _extract/unzip_ the **ServicesForNewcomers** folder.    
-**Step Two:** Open your _VScode editor_ and navigate to the **ServicesForNewcomers** folder.    
-**Step Three:** type the command `_python -m venv venv_` # This will create the virtual environment with folder name venv.  
-**Step Four:** type the command `_venv\Scripts\activate_` and press Enter key on the keyboard #_This will activate the virtual environment._   
-**Step Five:** type `_python -m pip install Django_` # This will install Django Framework.  
-**Step Seven:** type `_python manage.py makemigrations Agenda._`  and press Enter key on the keyboard.  
-**Step Eight:** type `_python manage.py migrate._`  and press Enter key on the keyboard.  
-**Step Nine:** type `_python manage.py runserver 8080_` press Enter key on the keyboard # _This will make the project to run on port 8080._    
+**Steps to run the project on Windows:** 
+**Step One:** download and `_extract/unzip_` the **ServicesForNewcomers** folder.
+**Step Two:** type the command `cd C:\FormationDjango\ServicesForNewcomers` change the current folder to the **ServicesForNewcomers** folder.
+**Step Three:** type the command `_pip install vitualenv_` # This will install a virtual environment.
+**Step Four:** type the command `_vitualenv venv_` # This will create the virtual environment with folder name venv.  
+**Step Five:** type the command `_venv\Scripts\activate_` # This will activate the virtual environment called venv.
+**Step Six:** type `_pip install django_` # This will install Django Framework.
+**Step Seven:** stay in the **ServicesForNewcomers** folder and type the command `_code ._` this will open _VScode editor_.    
+**Step Eight:** stay in the **ServicesForNewcomers** folder type `_python manage.py makemigrations Agenda._`  and press Enter key on the keyboard.  
+**Step Nine:** stay in the **ServicesForNewcomers** folder type `_python manage.py migrate._`  and press Enter key on the keyboard.  
+**Step Ten:** type `_python manage.py runserver 8080_` press Enter key on the keyboard # _This will make the project to run on port 8080._    
+
 
 **The result on your command line will look like be as follows:**  
-PS C:\FormationDjango\ServicesForNewcomers\> python -m venv venv  
-PS C:\FormationDjango\ServicesForNewcomers\> venv\Scripts\activate  
-(venv) PS C:\FormationDjango\ServicesForNewcomers\> python -m pip install Django  
-Collecting Django  
-  Obtaining dependency information for Django from https://files.pythonhosted.org/packages/50/1b/7536019fd20654919dcd81b475fee1e54f21bd71b2b4e094b2ab075478b2/Django-5.0.2-py3-none-any.whl.metadata  
-  Downloading Django-5.0.2-py3-none-any.whl.metadata (4.1 kB)  
-Collecting asgiref<4,>=3.7.0 (from Django)  
-  Obtaining dependency information for asgiref<4,>=3.7.0 from https://files.pythonhosted.org/packages/9b/80/b9051a4a07ad231558fcd8ffc89232711b4e618c15cb7a392a17384bbeef/asgiref-3.7.2-py3-none-any.whl.metadata  
-  Using cached asgiref-3.7.2-py3-none-any.whl.metadata (9.2 kB)  
-Collecting sqlparse>=0.3.1 (from Django)  
-  Obtaining dependency information for sqlparse>=0.3.1 from https://files.pythonhosted.org/packages/98/5a/66d7c9305baa9f11857f247d4ba761402cea75db6058ff850ed7128957b7/sqlparse-0.4.4-py3-none-any.whl.metadata  
-  Downloading sqlparse-0.4.4-py3-none-any.whl.metadata (4.0 kB)  
-Collecting tzdata (from Django)
-  Obtaining dependency information for tzdata from https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl.metadata  
-  Downloading tzdata-2024.1-py2.py3-none-any.whl.metadata (1.4 kB)  
-Downloading Django-5.0.2-py3-none-any.whl (8.2 MB)  
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.2/8.2 MB 4.0 MB/s eta 0:00:00  
-Using cached asgiref-3.7.2-py3-none-any.whl (24 kB)  
-Using cached sqlparse-0.4.4-py3-none-any.whl (41 kB)  
-Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)  
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 345.4/345.4 kB 4.3 MB/s eta 0:00:00  
-Installing collected packages: tzdata, sqlparse, asgiref, Django  
-Successfully installed Django-5.0.2 asgiref-3.7.2 sqlparse-0.4.4 tzdata-2024.1  
- 
-(venv) C:\FormationDjango\ServicesForNewcomers\> python manage.py makemigrations Agenda  
-(venv) C:\FormationDjango\ServicesForNewcomers\> python manage.py migrate   
-(venv) C:\FormationDjango\ServicesForNewcomers\> python manage.py runserver 8080   
+(base) PS C:\FormationDjango\ServicesForNewcomers> virtualenv venv
+created virtual environment CPython3.11.5.final.0-64 in 1205ms
+  creator CPython3Windows(dest=C:\FormationDjango\ServicesForNewcomers\venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\HP\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==23.3.2, setuptools==69.0.3, wheel==0.42.0
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+(base) PS C:\FormationDjango\ServicesForNewcomers>
 
-System check identified no issues (0 silenced).  
-February 19, 2024 - 14:20:19  
-Django version 5.0.2, using settings 'ServicesForNewcomers.settings'  
-Starting development server at http://127.0.0.1:8080/  
-Quit the server with CTRL-BREAK.    
+(base) PS C:\FormationDjango\ServicesForNewcomers> venvs/Scripts/activate
+(base) (venv) PS C:\FormationDjango\ServicesForNewcomers>
+
+(base) (venv) PS C:\FormationDjango\ServicesForNewcomers> code .
+
+(base) (venv) PS C:\FormationDjango\ServicesForNewcomers> python manage.py makemigrations Agenda
+No changes detected in app 'Agenda'
+(base) (venv) PS C:\FormationDjango\ServicesForNewcomers> python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+(base) (venv) PS C:\FormationDjango\ServicesForNewcomers>
+
+(base) (venv) PS C:\FormationDjango\ServicesForNewcomers> python manage.py runserver 8080
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 19, 2024 - 22:57:01
+Django version 5.0.2, using settings 'ServicesForNewcomers.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CTRL-BREAK.
+
+[19/Feb/2024 22:57:19] "GET / HTTP/1.1" 200 53
+Not Found: /favicon.ico
+[19/Feb/2024 22:57:19] "GET /favicon.ico HTTP/1.1" 404 2237    
 
 **Your web browser will display the following message:**
 
