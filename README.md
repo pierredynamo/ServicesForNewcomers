@@ -12,7 +12,8 @@ The project is called online services for newcomers. It is and agenda and consis
 =>**Login/Logout System** – With this feature, the user can log-in and log-out of the system.   
 
 
-**Steps to run the project on Windows:** 
+**Steps to run the project on Windows:**
+
 **Step One:** download and `extract/unzip` the **ServicesForNewcomers** folder.
 **Step Two:** type the command `cd C:\FormationDjango\ServicesForNewcomers` change the current folder 
 to the **ServicesForNewcomers** folder. 
