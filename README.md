@@ -15,13 +15,12 @@ The project is called online services for newcomers. It is and agenda and consis
 **Steps to run the project:**  
 **Step One:** download and _extract/unzip_ the **ServicesForNewcomers** folder.    
 **Step Two:** Open your _VScode editor_ and navigate to the **ServicesForNewcomers** folder.    
-**Step Three:** type the command "_python -m venv venv_" # This will create the virtual environment with folder name venv.  
-**Step Four:** type the command "_venv\Scripts\activate_" and press Enter key on the keyboard #_This will activate the virtual environment._   
-**Step Five:** type "_python -m pip install Django_" # This will install Django Framework.  
-**Step Six:** type "_cd Agenda_" and press Enter key on the keyboard # _This will change the directory to the appplication folder._    
-**Step Seven:** type "_python manage.py makemigrations Agenda._"  and press Enter key on the keyboard.  
-**Step Eight:** type "_python manage.py migrate._"  and press Enter key on the keyboard.  
-**Step Nine:** type "_python manage.py runserver 8080_" press Enter key on the keyboard # _This will make the project to run on port 8080._    
+**Step Three:** type the command `_python -m venv venv_` # This will create the virtual environment with folder name venv.  
+**Step Four:** type the command `_venv\Scripts\activate_` and press Enter key on the keyboard #_This will activate the virtual environment._   
+**Step Five:** type `_python -m pip install Django_` # This will install Django Framework.  
+**Step Seven:** type `_python manage.py makemigrations Agenda._`  and press Enter key on the keyboard.  
+**Step Eight:** type `_python manage.py migrate._`  and press Enter key on the keyboard.  
+**Step Nine:** type `_python manage.py runserver 8080_` press Enter key on the keyboard # _This will make the project to run on port 8080._    
 
 **The result on your command line will look like be as follows:**  
 PS C:\FormationDjango\ServicesForNewcomers\> python -m venv venv  
