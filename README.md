@@ -18,7 +18,7 @@ The project is called online services for newcomers. It is and agenda and consis
 
 **Step Two:** Navigate to the ServicesForNewcomers folder by typing `cd C:\FormationDjango\ServicesForNewcomers`.
 
-**Step Three:** Install the virtual environment by typing `pip install vitualenv`.
+**Step Three:** Install the virtual environment by typing `pip install virtualenv`.
 
 **Step Four:** Create a virtual environment with the folder name 'venv' by typing the command `virtualenv venv`.
 
