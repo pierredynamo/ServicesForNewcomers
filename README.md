@@ -14,25 +14,25 @@ The project is called online services for newcomers. It is and agenda and consis
 
 **Steps to run the project on Windows:**
 
-**Step One:** download and `extract/unzip` the **ServicesForNewcomers** folder.
+**Step One:**  Download and `extract/unzip` the ServicesForNewcomers folder.
 
-**Step Two:** type the command `cd C:\FormationDjango\ServicesForNewcomers` change the current folder to the **ServicesForNewcomers** folder.
+**Step Two:** Navigate to the ServicesForNewcomers folder by typing `cd C:\FormationDjango\ServicesForNewcomers`.
 
-**Step Three:** type the command `pip install vitualenv` # This will install a virtual environment.
+**Step Three:** Install the virtual environment by typing `pip install vitualenv`.
 
-**Step Four:** type the command `vitualenv venv` # This will create the virtual environment with folder name venv.
+**Step Four:** Create a virtual environment with the folder name 'venv' by typing the command `virtualenv venv`.
 
-**Step Five:** type the command `venv\Scripts\activate` # This will activate the virtual environment called venv.
+**Step Five:** Activate the virtual environment named 'venv' by typing `venv\Scripts\activate`.
 
-**Step Six:** type `pip install django` # This will install Django Framework.
+**Step Six:** Install Django by typing `pip install django`.
 
-**Step Seven:** stay in the **ServicesForNewcomers** folder and type the command `code .` this will open VScode editor.
+**Step Seven:** Start VScode by typing `code .`.
 
-**Step Eight:** stay in the **ServicesForNewcomers** folder type `python manage.py makemigrations Agenda`  and press Enter key on the keyboard.
+**Step Eight:** Make migration of Agenda App by typing `python manage.py makemigrations Agenda`.
 
-**Step Nine:** stay in the **ServicesForNewcomers** folder type `python manage.py migrate`  and press Enter key on the keyboard.
+**Step Nine:** Make migration of the project by typing `python manage.py migrate`.
 
-**Step Ten:** type `python manage.py runserver 8080` press Enter key on the keyboard # This will make the project to run on port 8080.    
+**Step Ten:** Start the server on port 8080 by typing `python manage.py runserver 8080`.    
 
 
 **The result on your command line will look like be as follows:**  
