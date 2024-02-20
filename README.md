@@ -20,7 +20,7 @@ The project is called online services for newcomers. It is and agenda and consis
 
 **Step Three:** type the command `pip install vitualenv` # This will install a virtual environment.
 
-**Step Four:** type the command `_vitualenv venv_` # This will create the virtual environment with folder name venv.
+**Step Four:** type the command `vitualenv venv` # This will create the virtual environment with folder name venv.
 
 **Step Five:** type the command `venv\Scripts\activate` # This will activate the virtual environment called venv.
 
