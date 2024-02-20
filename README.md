@@ -13,9 +13,9 @@ The project is called online services for newcomers. It is and agenda and consis
 
 
 **Steps to run the project on Windows:** 
-**Step One:** download and `_extract/unzip_` the **ServicesForNewcomers** folder.
-**Step Two:** type the command `cd C:\FormationDjango\ServicesForNewcomers` change the current folder to the **ServicesForNewcomers** folder.
-**Step Three:** type the command `_pip install vitualenv_` # This will install a virtual environment.
+**Step One:** download and `extract/unzip` the **ServicesForNewcomers** folder.
+**Step Two:** type the command `cd C:\FormationDjango\ServicesForNewcomers` change the current folder to the **ServicesForNewcomers** folder. 
+**Step Three:** type the command `pip install vitualenv` # This will install a virtual environment.
 **Step Four:** type the command `_vitualenv venv_` # This will create the virtual environment with folder name venv.  
 **Step Five:** type the command `_venv\Scripts\activate_` # This will activate the virtual environment called venv.
 **Step Six:** type `_pip install django_` # This will install Django Framework.
